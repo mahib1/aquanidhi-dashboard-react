@@ -1,0 +1,16 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.dashboard {
+  display: flex;
+  height: calc(100% - 60px);
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+}

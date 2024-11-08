@@ -1,0 +1,39 @@
+
+.data-table {
+  flex: 1;
+  padding: 20px;
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f0f4f8;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.table-header span {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #e3e7ed;
+  font-weight: bold;
+}
+
+tr:hover {
+  background-color: #f0f4f8;
+}
